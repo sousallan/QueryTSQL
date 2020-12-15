@@ -1,0 +1,32 @@
+<CustomersOrders>
+     <co:Customer>
+	    <co:custid>1</co:custid>
+		<co:companyname>Customer NRZBB</co:companyname>
+		<co:Order>
+		    <co:orderid>10692</co:orderid>
+		    <co:orderdate>2015-10-03</co:orderdate>
+		</co:Order>
+	</co:Customer>
+</CustomersOrders>
+
+
+
+<CustomersOrders>
+     <co:Order>
+	     <co:custid>10692</co:custid>
+		 <co:orderdate>2015-10-03</co:orderdate>
+		 <co:Customer>
+		     <co:companyname>Customer NRZBB</co:companyname>
+			    <co:custid>1</co:custid>
+		 </co:Customer>
+	</co:Order>
+</CustomersOrders>
+
+
+/* FOR XML PATH */
+<row><categoryid>1</categoryid><categoryname>Beverages</categoryname><description>Soft drinks, coffees, teas, beers, and ales</description></row>
+
+<InfoCategorias id="1"><categoryname>Beverages</categoryname><description>Soft drinks, coffees, teas, beers, and ales</description></InfoCategorias>
+
+<XMLCategorias><Categoria id="1"><categoryname>Beverages</categoryname><description>Soft drinks, coffees, teas, beers, and ales</description></Categoria></XMLCategorias>
+
